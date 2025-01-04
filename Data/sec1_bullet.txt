@@ -29,10 +29,14 @@ Let's break down the data for San Diego County:
 
 **Analysis:**
 
-- **Growth in Total GRP:** From 2019 to 2023, the total GRP of San Diego County increased from approximately $244.28 billion to $308.71 billion. This represents an increase of about 26.4% over the five-year period.
+- **Growth in Total GRP:** From 2019 to 2023, the total GRP of San Diego County increased from approximately $244.28 billion to $308.71 billion. This represents an increase of about $64.43 billion over the five-year period.
 
-- **Population Changes:** The population of San Diego County slightly decreased from 3,330,458 in 2019 to 3,252,468 in 2023. This is a decrease of about 2.3%.
+- **Population Trends:** The population of San Diego County showed a slight decrease from 3,330,458 in 2019 to 3,252,468 in 2023. This decrease in population could be due to various factors such as migration, birth rates, and economic conditions.
 
-- **GRP per Capita Growth:** The GRP per capita increased significantly from $73,346.92 in 2019 to $94,915.87 in 2023. This is an increase of approximately 29.4%, indicating that the economic output per person has grown substantially over this period.
+- **GRP per Capita Growth:** The GRP per capita increased significantly from $73,346.92 in 2019 to $94,915.87 in 2023. This indicates that the economic output per person in San Diego County has grown, suggesting improvements in productivity and economic conditions.
 
-Overall, San Diego County experienced a robust growth in its economic output as measured by GRP, despite a slight decline in population. The increase in GRP per capita suggests improvements in productivity and economic efficiency within the county.
+- **Yearly Changes:**
+  - The most significant increase in GRP per capita occurred between 2021 and 2022, with an increase of $8,457.15.
+  - The total GRP saw the largest annual increase between 2021 and 2022, with an increase of approximately $27.81 billion.
+
+Overall, the data indicates a positive trend in the economic performance of San Diego County over the five-year period, with substantial growth in both total GRP and GRP per capita despite a slight decline in population. This suggests that the county's economy has become more productive and efficient.
