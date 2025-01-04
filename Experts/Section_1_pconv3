@@ -1,0 +1,181 @@
+nodes:
+  - id: LZNVNv8fltJXSAbwM6iNt
+    type: file
+    position:
+      x: 693.5
+      'y': -48.75
+    data:
+      id: LZNVNv8fltJXSAbwM6iNt
+      title: Overall Prompt TXT
+      fileName: Economic Scan Overview.txt
+      flowState: &ref_0
+        backend: git
+        repo: apps-maria-2-pdf
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 693.5
+      'y': -48.75
+    dragging: false
+  - id: AlF52Wm2J7tvQmUw1oHdH
+    type: file
+    position:
+      x: 964.75
+      'y': -46.75
+    data:
+      id: AlF52Wm2J7tvQmUw1oHdH
+      title: Section 1 Prompt TXT
+      fileName: Section 1 Gross Regional Product.txt
+      flowState: *ref_0
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 964.75
+      'y': -46.75
+    dragging: false
+  - id: 0GxFpAe2N8rDChJ7K6Nha
+    type: file
+    position:
+      x: 554.75
+      'y': 231.25
+    data:
+      id: 0GxFpAe2N8rDChJ7K6Nha
+      title: Data
+      fileName: sec1-1_San Diego County_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 554.75
+      'y': 231.25
+    dragging: false
+  - id: 0oR3YFcqIMe1Bt3tzsY1h
+    type: file
+    position:
+      x: 804.75
+      'y': 231.25
+    data:
+      id: 0oR3YFcqIMe1Bt3tzsY1h
+      title: Data
+      fileName: sec1-2_San Diego County_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 804.75
+      'y': 231.25
+    dragging: false
+  - id: M3WejQ_aM6fFXvrSgFE3g
+    type: file
+    position:
+      x: 1048.75
+      'y': 233.25
+    data:
+      id: M3WejQ_aM6fFXvrSgFE3g
+      title: Data
+      fileName: sec1-3_San Diego_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1048.75
+      'y': 233.25
+    dragging: false
+  - id: '-YuQuKjsPyV25xsdTeKQQ'
+    type: file
+    position:
+      x: 1298.75
+      'y': 233.25
+    data:
+      id: '-YuQuKjsPyV25xsdTeKQQ'
+      title: Data
+      fileName: sec1-4_San Diego_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 1298.75
+      'y': 233.25
+    dragging: false
+  - id: UQ-6rlAD_JPG-2vPEEAmX
+    type: llm
+    position:
+      x: 937.75
+      'y': 607.25
+    data:
+      id: UQ-6rlAD_JPG-2vPEEAmX
+      title: New Model
+      input: ''
+      slashgptManifest: Section_1.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: false
+      flowState: *ref_0
+    width: 238
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 937.75
+      'y': 607.25
+    dragging: false
+  - id: XeGsoy8Jf1NUsV7Aoys2K
+    type: out
+    position:
+      x: 939.75
+      'y': 1113.25
+    data:
+      id: XeGsoy8Jf1NUsV7Aoys2K
+      title: Save File
+      outputName: sec1_bullet.txt
+    width: 238
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 939.75
+      'y': 1113.25
+    dragging: false
+edges:
+  - source: UQ-6rlAD_JPG-2vPEEAmX
+    sourceHandle: b
+    target: XeGsoy8Jf1NUsV7Aoys2K
+    targetHandle: t
+    id: uLaQCj
+  - source: '-YuQuKjsPyV25xsdTeKQQ'
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: 0b2Dtg
+  - source: M3WejQ_aM6fFXvrSgFE3g
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: 4giojl
+  - source: 0oR3YFcqIMe1Bt3tzsY1h
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: iC6ovV
+  - source: 0GxFpAe2N8rDChJ7K6Nha
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: nNQvr5
+  - source: AlF52Wm2J7tvQmUw1oHdH
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: 4t66gJ
+  - source: LZNVNv8fltJXSAbwM6iNt
+    sourceHandle: b
+    target: UQ-6rlAD_JPG-2vPEEAmX
+    targetHandle: t
+    id: '-597mc'
+description: null
