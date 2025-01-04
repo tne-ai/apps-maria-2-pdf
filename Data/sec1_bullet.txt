@@ -1,0 +1,38 @@
+To analyze the Gross Regional Product (GRP) of San Diego County between 2019 and 2023, we will examine the data provided in the `sec1-2_San Diego County_per_capita_grp_data.csv` file. This file contains information on the total GRP in dollars, population, and GRP per capita for San Diego County, the state of California, and the United States.
+
+Let's break down the data for San Diego County:
+
+1. **2019:**
+   - Total GRP: $244,278,846,457.50
+   - Population: 3,330,458
+   - GRP per Capita: $73,346.92
+
+2. **2020:**
+   - Total GRP: $244,822,303,264.04
+   - Population: 3,296,045
+   - GRP per Capita: $74,277.60
+
+3. **2021:**
+   - Total GRP: $268,873,550,391.04
+   - Population: 3,274,954
+   - GRP per Capita: $82,099.95
+
+4. **2022:**
+   - Total GRP: $296,683,894,891.99
+   - Population: 3,276,208
+   - GRP per Capita: $90,557.10
+
+5. **2023:**
+   - Total GRP: $308,710,843,090.86
+   - Population: 3,252,468
+   - GRP per Capita: $94,915.87
+
+**Analysis:**
+
+- **Growth in Total GRP:** From 2019 to 2023, the total GRP of San Diego County increased from approximately $244.28 billion to $308.71 billion. This represents an increase of about 26.4% over the five-year period.
+
+- **Population Changes:** The population of San Diego County slightly decreased from 3,330,458 in 2019 to 3,252,468 in 2023. This is a decrease of about 2.3%.
+
+- **GRP per Capita Growth:** The GRP per capita increased significantly from $73,346.92 in 2019 to $94,915.87 in 2023. This is an increase of approximately 29.4%, indicating that the economic output per person has grown substantially over this period.
+
+Overall, San Diego County experienced a robust growth in its economic output as measured by GRP, despite a slight decline in population. The increase in GRP per capita suggests improvements in productivity and economic efficiency within the county.
