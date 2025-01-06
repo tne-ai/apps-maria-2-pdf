@@ -1,0 +1,17 @@
+{
+    "document_filename": "San_Diego_County_GRP_Analysis_2019_2023.pdf",
+    "sections": [
+        {
+            "content": "The economic landscape of San Diego County from 2019 to 2023 reveals a compelling narrative of growth and change. Over this five-year period, the Gross Regional Product (GRP) of the county experienced a notable increase, rising from approximately $244.28 billion in 2019 to $308.71 billion in 2023. This growth, amounting to an increase of about $64.43 billion, underscores the region's expanding economic output. Despite a slight decline in population from 3,330,458 in 2019 to 3,252,468 in 2023, the GRP per capita saw a significant rise. Starting at $73,346.92 in 2019, it climbed to $94,915.87 by 2023, indicating enhanced economic productivity per individual. The most pronounced increase in GRP per capita occurred between 2021 and 2022, with a jump of $8,457.15. Meanwhile, the total GRP consistently grew each year, with the largest surge of approximately $27.81 billion occurring between 2021 and 2022. These trends suggest that San Diego County has been on a path of economic growth, driven by factors such as industry expansion, increased investment, and improvements in economic efficiency.",
+            "type": "raw text"
+        },
+        {
+            "content": "{\"type\": \"line\", \"data\": {\"labels\": [\"2019\", \"2020\", \"2021\", \"2022\", \"2023\"], \"datasets\": [{\"label\": \"Total GRP (USD)\", \"data\": [244278846457.5, 244822303264.04, 268873550391.04, 296683894891.99, 308710843090.86], \"borderColor\": \"blue\", \"fill\": false}, {\"label\": \"GRP per Capita (USD)\", \"data\": [73346.92, 74277.6, 82099.95, 90557.1, 94915.87], \"borderColor\": \"green\", \"fill\": false}]}, \"options\": {\"title\": {\"display\": true, \"text\": \"San Diego County GRP and GRP per Capita (2019-2023)\"}, \"legend\": {\"display\": true}}}",
+            "type": "chart"
+        },
+        {
+            "content": "Year | Total GRP (USD) | Population | GRP per Capita (USD)\n2019 | 244,278,846,457.50 | 3,330,458 | 73,346.92\n2020 | 244,822,303,264.04 | 3,296,045 | 74,277.60\n2021 | 268,873,550,391.04 | 3,274,954 | 82,099.95\n2022 | 296,683,894,891.99 | 3,276,208 | 90,557.10\n2023 | 308,710,843,090.86 | 3,252,468 | 94,915.87",
+            "type": "table"
+        }
+    ]
+}
