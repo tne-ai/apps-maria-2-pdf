@@ -197,7 +197,7 @@ nodes:
       id: 3HhdcBhA2J5h6DJwI5XWg
       title: Data
       fileName: ie_item_template_updated.txt
-      flowState:
+      flowState: &ref_1
         backend: git
         repo: apps-maria-2-pdf
         content:
@@ -244,7 +244,124 @@ nodes:
       x: 1305.9177419354837
       'y': 1227.3887096774192
     dragging: false
+  - id: huP-nDQ12nj-NknOYDhhh
+    type: python_code
+    position:
+      x: 1709.0854838709677
+      'y': 718.124193548387
+    data:
+      id: huP-nDQ12nj-NknOYDhhh
+      title: New Code
+      module: get_table_and_chart.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_1
+    width: 238
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 1709.0854838709677
+      'y': 718.124193548387
+    dragging: false
+  - id: i1eglHBQmwAl50J6qhuS1
+    type: llm
+    position:
+      x: 2055.9758064516127
+      'y': 659.0790322580643
+    data:
+      id: i1eglHBQmwAl50J6qhuS1
+      title: New Model
+      input: ''
+      slashgptManifest: pdf_formatter_updated2.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_1
+    width: 238
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 2055.9758064516127
+      'y': 659.0790322580643
+    dragging: false
+  - id: RtSYGQQxoUJjfIaGrgILY
+    type: file
+    position:
+      x: 1823.485483870968
+      'y': 363.8532258064515
+    data:
+      id: RtSYGQQxoUJjfIaGrgILY
+      title: Data
+      fileName: sec1_bullet.txt
+      flowState: *ref_1
+    width: 238
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 1823.485483870968
+      'y': 363.8532258064515
+    dragging: false
+  - id: gsYWaYBUsaX3gsZ4N1vuG
+    type: file
+    position:
+      x: 2150.079032258064
+      'y': 356.4725806451612
+    data:
+      id: gsYWaYBUsaX3gsZ4N1vuG
+      title: Data
+      fileName: pdf_formatter_template.txt
+      flowState: *ref_1
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 2150.079032258064
+      'y': 356.4725806451612
+    dragging: false
+  - id: JvqIPb4iV0bZ8N_HkCRh7
+    type: out
+    position:
+      x: 1712.7758064516129
+      'y': 1221.8532258064515
+    data:
+      id: JvqIPb4iV0bZ8N_HkCRh7
+      title: Save File
+      outputName: formatted_pdf.txt
+    width: 238
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 1712.7758064516129
+      'y': 1221.8532258064515
+    dragging: false
 edges:
+  - source: i1eglHBQmwAl50J6qhuS1
+    sourceHandle: b
+    target: JvqIPb4iV0bZ8N_HkCRh7
+    targetHandle: t
+    id: gQq3qe
+  - source: gsYWaYBUsaX3gsZ4N1vuG
+    sourceHandle: b
+    target: i1eglHBQmwAl50J6qhuS1
+    targetHandle: t
+    id: '-hd_-h'
+  - source: RtSYGQQxoUJjfIaGrgILY
+    sourceHandle: b
+    target: i1eglHBQmwAl50J6qhuS1
+    targetHandle: t
+    id: Xbva1s
+  - source: huP-nDQ12nj-NknOYDhhh
+    sourceHandle: r
+    target: i1eglHBQmwAl50J6qhuS1
+    targetHandle: l
+    id: YZAsbN
+  - source: QY1rVXN6sL_4JxRC7_uKv
+    sourceHandle: r
+    target: huP-nDQ12nj-NknOYDhhh
+    targetHandle: l
+    id: oTJ_CF
   - source: QY1rVXN6sL_4JxRC7_uKv
     sourceHandle: b
     target: 7qLym9ks-IuMGKbds1vmn
