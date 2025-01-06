@@ -116,7 +116,7 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_0
     width: 238
@@ -155,8 +155,8 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
+      outputToCanvas: true
+      useUserQuery: true
       flowState:
         backend: git
         repo: apps-maria-2-pdf
@@ -254,11 +254,11 @@ nodes:
       title: New Code
       module: get_table_and_chart.py
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       flowState: *ref_1
     width: 238
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 1709.0854838709677
       'y': 718.124193548387
