@@ -121,7 +121,7 @@ nodes:
       flowState: *ref_0
     width: 238
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 937.75
       'y': 607.25
@@ -142,7 +142,58 @@ nodes:
       x: 939.75
       'y': 1113.25
     dragging: false
+  - id: QY1rVXN6sL_4JxRC7_uKv
+    type: llm
+    position:
+      x: 1278.0596774193548
+      'y': 674.0725806451612
+    data:
+      id: QY1rVXN6sL_4JxRC7_uKv
+      title: New Model
+      input: ''
+      slashgptManifest: ie_item_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: apps-maria-2-pdf
+        content:
+          name: Section_1_pconv3
+          path: Experts/Section_1_pconv3
+          sha: e6a5a9e2d4e1e3a16cc3b11a46d15960df74d115
+          size: 3928
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-pdf/contents/Experts/Section_1_pconv3?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria-2-pdf/blob/main/Experts/Section_1_pconv3
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-pdf/git/blobs/e6a5a9e2d4e1e3a16cc3b11a46d15960df74d115
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2-pdf/main/Experts/Section_1_pconv3
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-pdf/contents/Experts/Section_1_pconv3?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-pdf/git/blobs/e6a5a9e2d4e1e3a16cc3b11a46d15960df74d115
+            html: >-
+              https://github.com/tne-ai/apps-maria-2-pdf/blob/main/Experts/Section_1_pconv3
+    width: 238
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 1278.0596774193548
+      'y': 674.0725806451612
+    dragging: false
 edges:
+  - source: UQ-6rlAD_JPG-2vPEEAmX
+    sourceHandle: r
+    target: QY1rVXN6sL_4JxRC7_uKv
+    targetHandle: l
+    id: Gt8cpL
   - source: UQ-6rlAD_JPG-2vPEEAmX
     sourceHandle: b
     target: XeGsoy8Jf1NUsV7Aoys2K
