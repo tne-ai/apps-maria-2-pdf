@@ -1,42 +1,33 @@
-To analyze the Gross Regional Product (GRP) of San Diego County between 2019 and 2023, we will examine the data provided in the `sec1-2_San Diego County_per_capita_grp_data.csv` file. This file contains information on the total GRP in dollars, population, and GRP per capita for San Diego County, the state of California, and the United States.
+To analyze the Gross Regional Product (GRP) of San Diego County between 2019 and 2023, we will examine the data provided in the `sec1-2_San Diego County_per_capita_grp_data.csv` file. This file contains information on the total GRP in dollars, population, and GRP per capita for San Diego County, California, and the United States.
 
-Let's break down the data for San Diego County:
+### Analysis:
 
-1. **2019:**
-   - Total GRP: $244,278,846,457.50
-   - Population: 3,330,458
-   - GRP per Capita: $73,346.92
+1. **Total GRP in San Diego County:**
+   - **2019:** $244,278,846,457.50
+   - **2020:** $244,822,303,264.04
+   - **2021:** $268,873,550,391.04
+   - **2022:** $296,683,894,891.99
+   - **2023:** $308,710,843,090.86
 
-2. **2020:**
-   - Total GRP: $244,822,303,264.04
-   - Population: 3,296,045
-   - GRP per Capita: $74,277.60
+   The total GRP in San Diego County has shown a consistent increase from 2019 to 2023. The GRP increased by approximately 26.4% over this period.
 
-3. **2021:**
-   - Total GRP: $268,873,550,391.04
-   - Population: 3,274,954
-   - GRP per Capita: $82,099.95
+2. **Population in San Diego County:**
+   - **2019:** 3,330,458
+   - **2020:** 3,296,045
+   - **2021:** 3,274,954
+   - **2022:** 3,276,208
+   - **2023:** 3,252,468
 
-4. **2022:**
-   - Total GRP: $296,683,894,891.99
-   - Population: 3,276,208
-   - GRP per Capita: $90,557.10
+   The population of San Diego County has slightly decreased from 2019 to 2023, with a notable drop in 2020 and a slight recovery in 2022.
 
-5. **2023:**
-   - Total GRP: $308,710,843,090.86
-   - Population: 3,252,468
-   - GRP per Capita: $94,915.87
+3. **GRP Per Capita in San Diego County:**
+   - **2019:** $73,346.92
+   - **2020:** $74,277.60
+   - **2021:** $82,099.95
+   - **2022:** $90,557.10
+   - **2023:** $94,915.87
 
-**Analysis:**
+   The GRP per capita has increased significantly over the years, indicating an improvement in economic productivity per person. The GRP per capita increased by approximately 29.4% from 2019 to 2023.
 
-- **Growth in Total GRP:** From 2019 to 2023, the total GRP of San Diego County increased from approximately $244.28 billion to $308.71 billion. This represents an increase of about $64.43 billion over the five-year period.
-
-- **Population Trends:** The population of San Diego County showed a slight decrease from 3,330,458 in 2019 to 3,252,468 in 2023. This decrease in population could be due to various factors such as migration, birth rates, and economic conditions.
-
-- **GRP per Capita Growth:** The GRP per capita increased significantly from $73,346.92 in 2019 to $94,915.87 in 2023. This indicates that the economic output per person in San Diego County has grown, suggesting improvements in productivity and economic conditions.
-
-- **Yearly Changes:**
-  - The most significant increase in GRP per capita occurred between 2021 and 2022, with an increase of $8,457.15.
-  - The total GRP saw the largest annual increase between 2021 and 2022, with an increase of approximately $27.81 billion.
-
-Overall, the data indicates a positive trend in the economic performance of San Diego County over the five-year period, with substantial growth in both total GRP and GRP per capita despite a slight decline in population. This suggests that the county's economy has become more productive and efficient.
+### Summary:
+San Diego County's economy has shown robust growth in terms of total GRP and GRP per capita from 2019 to 2023. Despite a slight decline in population, the economic output per person has increased, suggesting enhanced productivity and economic health in the region. The consistent rise in GRP and GRP per capita reflects a positive economic trajectory for San Diego County over the analyzed period.
